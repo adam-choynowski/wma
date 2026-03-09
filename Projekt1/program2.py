@@ -38,10 +38,10 @@ while True:
             cY = int(M['m01'] / M['m00'])
 
             cv2.circle(frame, (cX, cY), 5, (0, 0, 255), -1)
-            cv2.putText(frame, "czerwona piłka", (cX - 50, cY - 25),
+            cv2.putText(frame, "czerwona pilka", (cX - 50, cY - 25),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
-    cv2.imshow('czerwona piłka "q" - wyjście', frame)
+    cv2.imshow('czerwona pilka "q" - wyjscie', frame)
     if cv2.waitKey(1) == ord('q'):
         break
 
