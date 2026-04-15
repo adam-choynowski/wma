@@ -2,8 +2,6 @@ import cv2 as cv
 import numpy as np
 import sys
 
-
-
 def analyze_tray_and_coins(image_path):
     img_color = cv.imread(image_path)
     if img_color is None:
